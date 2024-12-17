@@ -1,0 +1,61 @@
+/* Ümumi Stil */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Başlıq */
+header {
+    background-image: url('https://via.placeholder.com/1920x500');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Haqqında Bölməsi */
+#haqqinda {
+    background-color: #f9f9f9;
+    padding: 3rem 1rem;
+    border-radius: 10px;
+}
+
+#haqqinda p {
+    text-align: justify;
+}
+
+/* Fakültələr */
+#fakulte .card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#fakulte .card:hover {
+    transform: scale(1.05);
+}
+
+/* Əlaqə Bölməsi */
+#elaqe form {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #adb5bd;
+}
+
+footer p {
+    margin: 0;
+}
